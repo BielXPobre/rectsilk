@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+<canvas id="d970e3129dcf4675950144b2337361b7"></canvas>
+<script>
+var images=['data:image/bmp;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAkCAYAAAA5DDySAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGqSURBVGhD7ZnrcYMwEIQpISWkBHcQl5AOcAfQAekgJaQESnAJ/GF4/lAJlODsOpIdyIWA8YzhlJ35bM8IIe3pQA8Hc1WW5b5pmqiu6xQY/O7wfXogGUjZpzzPd7ab91WWZU9o5A0Y2+iaYR9D2/XlqqoqXsEo38KyQCDVn2H8OLjpFknpxdqaJlZAxS2k+1TM5CAoNO/4OwiKzTvGg9C2Lac2qaIa+F6zdvtCZA5SBY0URRFb21ehQHPqD+m4trHW/Rr9byTWvnej7zBn83gp7IRCL0Dm7xkAbmzEC7SDZX7kxdT3GwhAygzgdlK8wAMMX4BSgS90vgfg9B8AfPi4BnB0Xr8EMQsceeT1IRX6AL37ug9whIExhie+UqF6LocjPCSQLtDMOf2duCmQLtIMtgAv1v6XfMqC3ug78XlAELb4B8hsLs/+UIhMLFXQBDxG1q4sZMG7VFEJ12OwMWkMgvjcjwmVkuFNNsy0kR8KFV/BljdL5sd0N1d2pchs2Ewg7GyW9M7+l4pTBzjgWVrteoF9g/norsYlsQGmFhtDw8yORxKyL7eZDoJP1X1WWGJubaUAAAAASUVORK5CYII='];function LoadImagesAndRender(){var loadedImages=0;for(var i=0;i<images.length;i++){var source=images[i];images[i]=new Image();images[i].src=source;images[i].onload=function(){loadedImages++;if (loadedImages==images.length){Render();}};}}function Render(){let a=document.getElementById('d970e3129dcf4675950144b2337361b7');let b=a.getContext('2d');a.width=64;a.height=36;b.drawImage(images[0],0,0,64,36,0,0,64,36);}window.addEventListener('onload',LoadImagesAndRender());
+</script>
+</body>
+</html>
