@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+<canvas id="1f4f27cbca3347c5a3be6d34306cd720"></canvas>
+<script>
+var images=['data:image/bmp;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAASCAYAAAA6yNxSAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADaSURBVEhLxZWNDYQgDIWZhAmYwAmcgEFkAQZxAiZwAjZwAiZggl5eDwl6l1wuCv2SJmKUvv5QlNaarmatpW3bKKVEd9n3nfdaluXDD+wkYJ5n/qEXCGiapu8CnHOUcy6f9qXNBguAqpEgUGS7Cnii1v+CUrMApF4KNLtCh0oB36pn1/8CpVflWQx5ARIn4ADlV+u6luV4QgikcBSk4GOIYRBjLK/GgejrJMQoHtkL7aVUL6NRIlrnJwGHCKSmF2h4Y0z1BzsJOAxCvPc8KtEfdwwBYa+r47dpegEi/zApRmfrCgAAAABJRU5ErkJggg=='];function LoadImagesAndRender(){var loadedImages=0;for(var i=0;i<images.length;i++){var source=images[i];images[i]=new Image();images[i].src=source;images[i].onload=function(){loadedImages++;if (loadedImages==images.length){Render();}};}}function Render(){let a=document.getElementById('1f4f27cbca3347c5a3be6d34306cd720');let b=a.getContext('2d');a.width=32;a.height=18;b.drawImage(images[0],0,0,32,18,0,0,32,18);}window.addEventListener('onload',LoadImagesAndRender());
+</script>
+</body>
+</html>
