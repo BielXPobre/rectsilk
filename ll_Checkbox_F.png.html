@@ -1,0 +1,13 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+</head>
+<body>
+<canvas id="35a3e44d68904a3aa76400beb2a915ec"></canvas>
+<script>
+var images=['data:image/bmp;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAAgCAYAAACinX6EAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFSSURBVGhD7VnbDYMwDGSEjtAR2Ag2ohswUn6QePxkBEZofeCgNjIoqP0gdk86IZEQ2Rfb5FGkwjl36/u+nqapHcfR0XOm5/MKZFtgE2yrYCub/T3I6TsN3FzJ4RRCDNjObpwHVKRBHtLgORGTdzoioBx97OPBMqZPjgZSrMQH0QAa6LuuK9lNGQpnPuZ+JCBP0CH6QCO9WBM0FLxUojCy2ys49MXOWvmRCqQIFhBiR60chmGNAu89cl/spJzzUgsoFGqh0Qork+EfSGnQQgAnNRqhgwBZbXJ+zLkQXpriXwDzKWC+COJXIDSY4PIbNL8QwlLYah3YtsUkQCN10Mwl/APMb4cBS1GwbYXfwdtiu0diAKeCzUPRAEoFtcfi8I3dPIbCSEi/GAng9UH2hREFbzfnUwDlclsu08TNcPz0rB8BKtKANYtxyetxtu3E9XhRvAAfvMpbc1HrnwAAAABJRU5ErkJggg=='];function LoadImagesAndRender(){var loadedImages=0;for(var i=0;i<images.length;i++){var source=images[i];images[i]=new Image();images[i].src=source;images[i].onload=function(){loadedImages++;if (loadedImages==images.length){Render();}};}}function Render(){let a=document.getElementById('35a3e44d68904a3aa76400beb2a915ec');let b=a.getContext('2d');a.width=64;a.height=32;b.drawImage(images[0],0,0,64,32,0,0,64,32);}window.addEventListener('onload',LoadImagesAndRender());
+</script>
+</body>
+</html>
